@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.wayne.supportlibdemo"
+<manifest
+    package="com.wayne.supportlibdemo"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
@@ -15,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".v4.DrawerLayoutActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

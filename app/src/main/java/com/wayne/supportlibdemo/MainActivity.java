@@ -11,10 +11,12 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.wayne.supportlibdemo.v4.DrawerLayoutActivity;
+import com.wayne.supportlibdemo.v7.RecyclerViewActivity;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     private static final int INTENT_DRAWERLAYOUT_ACTIVITY = 0;
+    private static final int INTENT_RECYCLER_VIEW_ACTIVITY = 1;
 
     private ListView mListView;
 
@@ -55,6 +57,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         switch (position) {
             case INTENT_DRAWERLAYOUT_ACTIVITY:
                 startActivity(new Intent(this, DrawerLayoutActivity.class));
+                break;
+            case INTENT_RECYCLER_VIEW_ACTIVITY:
+                startActivity(new Intent(this, RecyclerViewActivity.class));
                 break;
         }
     }

@@ -3,5 +3,6 @@
     <string name="test_drawerlayout">test drawerlayout</string>
     <array name="home_item">
         <item>drawerLayout</item>
+        <item>RecyclerView</item>
     </array>
 </resources>

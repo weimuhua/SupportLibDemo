@@ -49,7 +49,7 @@ public class CardViewActivity extends AppCompatActivity implements SeekBar.OnSee
         if (mRadiusSeekBar == seekBar) {
             mCardView.setRadius(progress);
         } else if (mElevationSeekBar == seekBar) {
-            if (Build.VERSION.SDK_INT > Build.VERSION_CODES.LOLLIPOP) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 mCardView.setElevation(progress);
             }
         }

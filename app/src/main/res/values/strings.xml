@@ -4,5 +4,6 @@
     <array name="home_item">
         <item>drawerLayout</item>
         <item>RecyclerView</item>
+        <item>CardView</item>
     </array>
 </resources>
